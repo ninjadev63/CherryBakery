@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --f-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: url(../pictures/bg-main.jpg) top left no-repeat,
+            url(../pictures/bg-sixth.jpg) 0 100vh no-repeat,
+            url(../pictures/bg-fourth.jpg) 0 200vh no-repeat,
+            url(../pictures/bg-fifth.jpg) 0 300vh no-repeat,
+            url(../pictures/bg-second.jpg) 0 400vh no-repeat,
+            url(../pictures/bg-two.jpg) 0 500vh no-repeat,
+            url(../pictures/bg-third.jpg) 0 600vh no-repeat,
+            url(../pictures/bg-fourth.jpg) 0 700vh no-repeat,
+            url(../pictures/bg-fifth.jpg) 0 800vh no-repeat;
+    background-size: cover;
+    font-family: var(--f-family);
+    margin: 0;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 40px;
+    color: #B93160;
+    text-align: center;
+}
+
+.bottom-border {
+    border-bottom: 2px solid #C1A3A3;
+}
+
+.tb-borders {
+    border-top: 2px solid #C1A3A3;
+    border-bottom: 2px solid #C1A3A3;
+    margin-top: 3px;
+}
+
+.cake-item, .cake-item-reverse {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.item, .item-reverse {
+    display: flex;
+    background-color: #FCAC0C;
+}
+
+.cake-item-reverse, .item-reverse {
+    flex-flow: row-reverse;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Volkhov', serif;
+    color: #B93160;
+    margin: 0 15px;
+    min-width: 40px;
+}
+
+.item h2 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.item-reverse h2 {
+    writing-mode: vertical-lr;
+}
+
+.item img, .item-reverse img {
+    width: 250px;
+}
+
+.description {
+    padding: 50px 50px 50px 100px;
+}
+
+.description-reverse {
+    margin-right: auto;
+    padding: 50px 100px 50px 50px;
+}
+
+.description p, .description-reverse p {
+    font-size: 25px;
+    color: #C1A3A3;
+}
+
+h3 {
+    color: #FCAC0C;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    border-top: 3px solid #B93160;
+    border-bottom: 3px solid #B93160;
+    padding-top: 5px;
+    align-items: center;
+}
+
+#particles-js {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 330vh;
+}
+
+#btn-up, #btn-home {
+    background-color: #C1A3A3;
+    padding: 5px 10px;
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    z-index: 99;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 40px;
+}
+
+#btn-up {
+    font-weight: bold;
+    color: white;
+    right: 10px;
+}
+
+#btn-home {
+    right: 52px;
+}
+
+#btn-up:hover, #btn-home:hover {
+    background-color: #FCAC0C;
+}
+
+.footer {
+    border-top: 2px solid #B93160;
+    margin-top: 3px;
+    padding-top: 10px;
+    font-family: var(--f-family);
+    width: 100%;
+}
+
+.author, .made, a {
+    font-size: 16px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.author, .source {
+    color: dimgray;
+}
+
+.made {
+    color: #B93160;
+}
+
+.source {
+    font-size: 12px;
+    text-align: center;
+    margin: 5px;
+}
+
+@media all and (max-width: 900px) {
+    .description {
+        padding: 50px 30px 50px 50px;
+    }
+    
+    .description-reverse {
+        padding: 50px 50px 50px 30px;
+    }
+
+    #particles-js {
+        height: 355vh;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .cake-item, .cake-item-reverse {
+        flex-direction: column;
+    }
+
+    .description, .description-reverse {
+        padding: 50px 40px 0 40px;
+    }
+
+    #particles-js {
+        height: 480vh;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .description p, .description-reverse p {
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width: 370px) {
+    .item img, .item-reverse img {
+        width: 180px;
+    }
+
+    h2 {
+        margin: 0 13px !important;
+        min-width: 30px;
+    }
+
+    .description, .description-reverse {
+        padding: 50px 20px 0 35px;
+    }
+
+    .description p, .description-reverse p {
+        font-size: 20px;
+    }
+
+    #particles-js {
+        height: 400vh;
+    }
+}
+
+@media all and (max-width: 300px) {
+    .item img, .item-reverse img {
+        width: 150px;
+    }
+
+    h2 {
+        margin: 0 10px !important;
+        font-size: 20px !important;
+        min-width: 25px;
+    }
+
+    .description p, .description-reverse p {
+        font-size: 18px;
+    }
+    
+    #particles-js {
+        height: 400vh;
+    }
+}

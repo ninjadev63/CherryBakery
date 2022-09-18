@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CherryBakery</title>
+    <link rel="icon" href="./pictures/icon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;1,700&display=swap" rel="stylesheet">    
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <button id="btn-up" type="button" class="btn">&#8743;</button>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent" aria-label="Fourth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="./pictures/logo.jpg" alt="Logo"><span class="cherry">Cherry</span>Bakery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#aboutUS">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu/menu.html" target="_blank">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactUS">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="header">
+        <div class="text-container">
+            <h1><span class="dessert">Desserts </span><br>for every taste</h1>
+            <p class="header-text">All of our cakes are baked from scratch daily, nothing is ever frozen, and we only use the highest quality local ingredients</p>
+                <button id="btn-open" type="button" class="btn"><a href="./menu/menu.html" target="_blank">Open menu</a></button>
+                <button id="btn-book" type="button" class="btn"><a href="#book">Book a table</a></button>
+        </div>
+        <div class="pic-container">
+            <img class="pic-one" src="./pictures/pic-one.jpg" alt="Cake">
+            <div class="pic-column">
+                <img class="pic-two" src="./pictures/pic-two.jpg" alt="Donat">
+                <img class="pic-three" src="./pictures/pic-three.jpg" alt="Tart">
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="pre-introduction">
+        <div class="pre-int">
+            <img src="./pictures/history.png" alt="Our history">
+            <h4>OUR HISTORY</h4>
+            <p>A FAMILY BUSINESS</p>
+        </div>
+
+        <div class="pre-int">
+            <img src="./pictures/product.png" alt="Our products">
+            <h4>OUR PRODUCTS</h4>
+            <p>BETTER INGREDIENTS</p>
+        </div>
+
+        <div class="pre-int">
+            <img src="./pictures/globus.png" alt="Our values">
+            <h4>OUR VALUES</h4>
+            <p>100% FAIR TRADE</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="assortment">
+        <div>
+            <h2>ASSORTMENT</h2>
+        </div>
+
+        <div class="assortment-container">
+            <img id="prev-btn" src="./pictures/prev.jpg" alt="Prev arrow" width="35px" height="35px">
+
+            <div class="assort-big-wrapper">
+                <div class="assortment-wrapper">
+                    
+                    <div class="category">
+                        <img class="img-category" data-aos="scale-image" data-aos="ease-out" src="./pictures/category-cake.jpg" alt="Cakes">
+                        <a href="./cakes/cakes.html" target="_blank">
+                            <h3>Cakes</h3>
+                        </a> 
+                    </div>
+                
+                    <div class="category">
+                        <img class="img-category" data-aos="scale-image" data-aos="ease-out" src="./pictures/category-wed-cake.jpg" alt="Wedding Cakes">
+                        <a href="./wedding-cakes/wedding.html" target="_blank">
+                            <h3>Wedding cakes</h3>
+                        </a>
+                    </div>
+
+                    <div class="category">
+                        <img class="img-category" data-aos="scale-image" data-aos="ease-out" src="./pictures/category-macaroons.jpg" alt="Macaroons">
+                        <a href="./macaroons/macaroon.html" target="_blank">
+                            <h3>Macaroons</h3>
+                        </a>
+                    </div>
+
+                    <div class="category">
+                        <img class="img-category" data-aos="scale-image" data-aos="ease-out" src="./pictures/category-cupcake.jpg" alt="Cupcakes">
+                        <a href="./cupcakes/cupcakes.html" target="_blank">
+                            <h3>Cupcakes</h3>
+                        </a>
+                    </div>
+
+                    <div class="category">
+                        <img class="img-category" data-aos="scale-image" data-aos="ease-out" src="./pictures/category-cheesecake.jpg" alt="Cheesecakes">
+                        <a href="cheesecakes/cheesecakes.html" target="_blank">
+                            <h3>Cheesecakes</h3>
+                        </a>
+                    </div>
+
+                    <div class="category">
+                        <img class="img-category" data-aos="scale-image" data-aos="ease-out" src="./pictures/category-doughnut.jpg" alt="Doughnuts">
+                        <a href="doughnuts/doughnuts.html" target="_blank">
+                            <h3>Doughnuts</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <img id="next-btn" src="./pictures/next.jpg" alt="Next arrow" width="35px" height="35px">
+        </div>
+
+        <div class="count-category">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2 id="aboutUS">ABOUT US</h2>
+        <div class="about-us">
+            <img src="./pictures/family-sq.jpg" alt="Family business">
+            <div class="about-container">
+                <p class="about-text">We’ve been in business for over 45 years. As a second generation family business, we know that our success has been supported by our unwavering commitment to strong values. <br>Responsibility is one of our core values, and to us, it includes an obligation to interact fairly and positively with our customers, suppliers, and the individual growers. We employ the best confectioners in the city who are simply in love with their work.</p>
+                <p class="phrase">We always make sure that the products is at their best.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="individual">
+        <p><span class="cherry">Cherry</span><span class="bakery">Bakery</span> provides an opportunity to order custom-made confectionery products for a special occasion in your life</p>
+        <div>
+            <button id="btn-order" type="button" class="btn btn-lg btn-outline-danger">ORDER NOW</button>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="book" id="book">
+        <h2>BOOK YOUR TABLE</h2>
+        <div>
+            <select>
+                <option value="">1 PERSON</option>
+                <option value="">2 PEOPLE</option>
+                <option value="">3 PEOPLE</option>
+                <option value="">4 PEOPLE</option>
+                <option value="">5 PEOPLE</option>
+                <option value="">6 PEOPLE</option>
+                <option value="">7 PEOPLE</option>
+                <option value="">8 PEOPLE</option>
+            </select>
+            <input type="date">
+            <select>
+                <option value="">10:00 AM</option>
+                <option value="">10:30 AM</option>
+                <option value="">11:00 AM</option>
+                <option value="">11:30 AM</option>
+                <option value="">12:00 PM</option>
+                <option value="">12:30 PM</option>
+                <option value="">1:00 PM</option>
+                <option value="">1:30 PM</option>
+                <option value="">2:00 PM</option>
+                <option value="">2:30 PM</option>
+                <option value="">3:00 PM</option>
+                <option value="">3:30 PM</option>
+                <option value="">4:00 PM</option>
+                <option value="">4:30 PM</option>
+                <option value="">5:00 PM</option>
+                <option value="">5:30 PM</option>
+                <option value="">6:00 PM</option>
+                <option value="">6:30 PM</option>
+                <option value="">7:00 PM</option>
+                <option value="">7:30 PM</option>
+                <option value="">8:00 PM</option>
+                <option value="">8:30 PM</option>
+                <option value="">9:00 PM</option>
+            </select>
+        </div>
+        <button id="btn-table" type="button" class="btn btn-danger">BOOK</button>
+    </section>
+
+    <hr>
+
+    <section class="contact-us">
+        <div class="contact-text">
+            <h2 id="contactUS">CONTACT US</h2>
+            <h4>LOCATION</h4>
+            <p><span class="cherry">Cherry</span><span class="bakery">Bakery</span><br>440 East 9th Street <br>New York, NY, USA <br>10009 </p>
+            <h4>HOURS</h4>
+            <p class="hours">Open 10 AM - 10 PM.</p>
+            <p>For questions about current offerings, allergens, or time sensitive requests please call us at: <br><span class="cherry">(123)-456-7890 </span><br>Please fill out this contact form for all other requests. Thank you!</p>
+            <form action="https://formspree.io/f/xlezkree" method="POST">
+                <input type="hidden" name="_language" value="en"/>
+                <input type="text" name="full name" placeholder="Full name">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                <button id="btn-submit" type="submit" class="btn">SEND</button>
+            </form>
+        </div>
+        <div class="contact-img">
+            <img src="./pictures/contacts.jpg" alt="Cafe photos">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1797.8226100878842!2d-73.9841712103393!3d40.727587751739605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2599d62d3cc81%3A0x59566778a4716f6f!2s440%20E%209th%20St%2C%20New%20York%2C%20NY%2010009%2C%20USA!5e0!3m2!1sen!2sua!4v1662124391608!5m2!1sen!2sua"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <span>Follow Us On</span>
+            <a href="#">
+                <img src="./pictures/facebook.png" alt="Facebook icon">
+            </a>
+            <a href="#">
+                <img src="./pictures/instagram.png" alt="Instagram icon">
+            </a>        
+            <a href="#">
+                <img src="./pictures/twitter.png" alt="Twitter icon">
+            </a>
+        </div>
+
+        <div class="footer">
+            <p class="author">Made by <a class="made" href="https://github.com/jtopolska" target="_blank">Julia Topolska </a></p>
+            <p class="author">2022</p>
+            <p class="source">The site was created for educational purposes. The images were taken from open sources such as: https://www.freepik.com, https://unsplash.com, https://www.pexels.com, https://www.pngfind.com</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CherryBakery - Cakes</title>
+    <link rel="icon" href="../pictures/icon.jpg">
+    <link rel="stylesheet" href="cakes.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <button id="btn-home" type="button" class="btn"><a href="../index.html"><img src="../pictures/home-icon.png" alt="Home icon" width="20px"></a></button>
+    <button id="btn-up" type="button" class="btn">&#8743;</button>
+    
+    <section class="container-lg">
+        <div class="row">
+            <div class="col-4 col-md-5 p-0">
+                <hr class="top">
+            </div>
+            <h1 class="col-4 col-md-2 mt-3 p-0">CAKES</h1>
+            <div class="col-4 col-md-5 p-0">
+                <hr class="top">
+            </div>
+        </div>
+        <div class="cake-container bottom-border">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/>
+                            <text class="left-heading" fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Raspberry&Yogurt cake
+                                    <animate id="an1" attributeName="startOffset"  dur="2s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../cakes-pictures/Raspberry&Yogurt cake(1).jpg" alt="Raspberry&Yogurt cake">
+                </div>
+                <div class="description">
+                    <p>Lite yogurt cake with raspberry marmalade and fresh berries on a thin cardamon sponge cake </p>
+                    <h3>$18 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cake-container-reverse tb-borders">
+            <div class="cake-item-reverse">
+                <div class="item-reverse">
+                    <div class="circular" id="right">
+                        <svg viewBox="0 0 102 102" fill="transparent">
+                            <path id="bottom" d="M0,60a50,50 0 1,0 0.2,0z"/> 
+                            <text class="right-heading" fill="#B93160" font-size="9" font-family="Volkhov">
+                                <textPath xlink:href="#bottom" startOffset="40%">
+                                    MONK'S HOUSE CAKE
+                                    <animate id="an2" attributeName="startOffset" begin="an1.end" dur="2s" values="65%;40%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-two" src="../cakes-pictures/MONK'S HOUSE CAKE(1).jpg" alt="Monk's house cake">
+                </div>
+                <div class="description-reverse">
+                    <p>Modern version of a good old cake “House of a monk”: homemade cherry waffle tubes with sour cream cream covered with chocolate-nut glaze</p>
+                    <h3>$15 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cake-container tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/>
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Salted Caramel Cake
+                                    <animate id="an3" attributeName="startOffset" begin="an2.end"  dur="2s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../cakes-pictures/salted caramel cake(1).jpg" alt="Salted Caramel Cake">
+                </div>
+                <div class="description">
+                    <p>A delicous brown sugar sponge layered in between a silky caramel buttercream and oozy caramel</p>
+                    <h3>$18 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cake-container-reverse tb-borders">
+            <div class="cake-item-reverse">
+                <div class="item-reverse">
+                    <div class="circular" id="right">
+                        <svg viewBox="0 0 102 102" fill="transparent">
+                            <path id="bottom" d="M0,60a50,50 0 1,0 0.2,0z"/> 
+                            <text  fill="#B93160" font-size="9" font-family="Volkhov">
+                                <textPath xlink:href="#bottom" startOffset="130px">
+                                    Barcelona cake
+                                    <animate id="an4" attributeName="startOffset" begin="an3.end" dur="2s" values="65%;40%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-two" src="../cakes-pictures/barcelona(1).jpg" alt="Barcelona cake">
+                </div>
+                <div class="description-reverse">
+                    <p>Flashback in Barcelona summer. Coconut sponge cake soaked with coconut milk, blackberry cream with whole berries</p>
+                    <h3>$21 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cake-container tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/>
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Chocolate Cherry Cake
+                                    <animate id="an5" attributeName="startOffset" begin="an4.end"  dur="2s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../cakes-pictures/Chocolate Cherry Cake(1).jpg" alt="Chocolate Cherry Cake">
+                </div>
+                <div class="description">
+                    <p>Rich, chocolatey, spiked with liquor, and with a pleasant tang from the drunken cherries</p>
+                    <h3>$20 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cake-container-reverse tb-borders">
+            <div class="cake-item-reverse">
+                <div class="item-reverse">
+                    <div class="circular" id="right">
+                        <svg viewBox="0 0 102 102" fill="transparent">
+                            <path id="bottom" d="M0,60a50,50 0 1,0 0.2,0z"/> 
+                            <text  fill="#B93160" font-size="9" font-family="Volkhov">
+                                <textPath xlink:href="#bottom" startOffset="130px">
+                                    CLASSIC HONEY CAKE
+                                    <animate id="an6" attributeName="startOffset" begin="an5.end" dur="2s" values="65%;40%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-two" src="../cakes-pictures/HONEY CAKE(1).jpg" alt="CLASSIC HONEY CAKE">
+                </div>
+                <div class="description-reverse">
+                    <p>Thin honey cake layers and toffy-sour cream cream with crushed walnuts</p>
+                    <h3>$17 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cake-container tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/>
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Carrot cake
+                                    <animate id="an7" attributeName="startOffset" begin="an6.end"  dur="2s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../cakes-pictures/Carrot cake(1).jpg" alt="Carrot cake">
+                </div>
+                <div class="description">
+                    <p>Moist carrot sponge cake with walnuts and prunes, soaked with orange fresh and cream cheese cream</p>
+                    <h3>$16 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cake-container-reverse tb-borders">
+            <div class="cake-item-reverse">
+                <div class="item-reverse">
+                    <div class="circular" id="right">
+                        <svg viewBox="0 0 102 102" fill="transparent">
+                            <path id="bottom" d="M0,60a50,50 0 1,0 0.2,0z"/> 
+                            <text  fill="#B93160" font-size="9" font-family="Volkhov">
+                                <textPath xlink:href="#bottom" startOffset="130px">
+                                    LEMON SOUFFLE CAKE
+                                    <animate id="an8" attributeName="startOffset" begin="an7.end" dur="2s" values="65%;40%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-two" src="../cakes-pictures/Lemon-soufle cake(1).jpg" alt="LEMON SOUFFLE CAKE">
+                </div>
+                <div class="description-reverse">
+                    <p>Lemon sponge cake with milky souffle covered with lemon marmalade</p>
+                    <h3>$20 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="author">Made by <a class="made" href="https://github.com/jtopolska" target="_blank">Julia Topolska </a></p>
+            <p class="author">2022</p>
+            <p class="source">The site was created for educational purposes. The images were taken from open sources such as: https://www.freepik.com, https://unsplash.com, https://www.pexels.com, https://www.pngfind.com</p>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="cakes.js"></script>
+
+</body>
+</html>
