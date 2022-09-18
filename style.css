@@ -355,6 +355,7 @@ select, input, textarea {
     font-family: var(--f-family);
     border: 2px solid #FCAC0C;
     border-radius: 5px;
+    background-color: white;
 }
 
 input {
