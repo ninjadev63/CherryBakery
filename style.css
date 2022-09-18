@@ -17,6 +17,7 @@ body {
             url(./pictures/bg-fourth.jpg) 0 700vh no-repeat,
             url(./pictures/bg-sixth.jpg) 0 800vh no-repeat;
     background-size: cover;
+    max-width: 100%;
     font-family: var(--f-family);
     margin: 0;
     height: 100vh;
@@ -118,8 +119,8 @@ h1 {
 
 .pic-three {
     position: relative;
-    margin-left: 60%;
-    margin-top: 15%;
+    margin-left: 50%;
+    margin-top: 30%;
     border-radius: 10px;
     width: 250px;
     height: 250px;
@@ -534,6 +535,7 @@ a img {
     
     .pic-one {
         width: 400px;
+        margin-left: 5px;
     }
     
     .pic-two {
@@ -544,7 +546,7 @@ a img {
     }
     
     .pic-three {
-        margin-left: 65%;
+        margin-left: 60%;
         margin-top: 40%;
         width: 150px;
         height: 150px;
@@ -656,8 +658,8 @@ a img {
     }
 
     .pic-three {
-        margin-left: 15%;
-        margin-top: 75%;
+        margin-left: 7%;
+        margin-top: 80%;
     }
 
     #prev-btn, #next-btn {
@@ -674,6 +676,16 @@ a img {
 
     .header {
         margin-top: 15%;
+    }
+
+    .pic-one {
+        margin-left: -30px;
+        margin-top: 120px;
+    }
+
+    .pic-two {
+        margin-left: 25%;
+        margin-top: -15%;
     }
 }
 
@@ -692,6 +704,14 @@ a img {
 
     #btn-open, #btn-book, #btn-open a, #btn-book a {
         padding: 10px;
+    }
+
+    .pic-one {
+        width: 350px;
+    }
+
+    .pic-two {
+        margin-left: 20%;
     }
 }
 
@@ -722,7 +742,7 @@ a img {
     }
     
     .pic-two {
-        margin-left: 70%;
+        margin-left: 64%;
         margin-top: 3%;
     }
     
@@ -817,6 +837,10 @@ a img {
     .contact-img {
         margin-left: 0;
     }
+
+    .pic-two {
+        margin-left: 55%;
+    }
 }
 
 @media all and (max-width: 520px) {
@@ -869,13 +893,9 @@ a img {
         font-size: 20px;
         padding: 40px 20px 0 0;
     }
-
-    .pic-one {
-        width: 350px;
-    }
     
     .pic-two {
-        margin-left: 65%;
+        margin-left: 60%;
         margin-top: -5%;
         width: 200px;
         height: 200px;
@@ -932,12 +952,11 @@ a img {
 
     .pic-one {
         margin-top: 30%;
-        margin-left: 5%;
+        margin-left: 0;
     }
     
     .pic-two {
-        margin-left: 65%;
-        margin-top: -5%;
+        margin-left: 54%;
     }
     
     .pic-three {
@@ -981,12 +1000,11 @@ a img {
     }
     
     .pic-two {
-        margin-left: 55%;
-        margin-top: -5%;
+        margin-left: 38%;
     }
     
     .pic-three {
-        margin-left: -10%;
+        margin-left: -10px;
         margin-top: 65%;
     }
 
@@ -996,7 +1014,6 @@ a img {
 
     .about-us img {
         width: 230px;
-        
     }
 
     .about-text, .phrase {
@@ -1032,6 +1049,34 @@ a img {
 @media all and (max-width: 310px) {
     h3 {
         font-size: 18px;
+    }
+
+    .pic-one {
+        margin-top: 40%;
+        margin-left: -15px;
+        width: 240px;
+    }
+    
+    .pic-two {
+        margin-left: 10%;
+    }
+    
+    .pic-three {
+        margin-left: -10px;
+        margin-top: 75%;
+    }
+
+    .about-us img {
+        margin-left: 10px;
+    }
+
+    .contact-us {
+        padding: 0;
+        margin: 0 0 0 30px;
+    }
+
+    .contact-img img, iframe {
+        width: 200px;
     }
 }
 
