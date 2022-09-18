@@ -6,6 +6,10 @@
     --f-family: 'Quicksand', sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     background: url(../pictures/bg-main.jpg) top left no-repeat,
             url(../pictures/bg-sixth.jpg) 0 100vh no-repeat,
