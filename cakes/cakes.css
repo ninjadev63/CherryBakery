@@ -47,12 +47,12 @@ h1 {
 
 .cake-item {
     display: flex;
-    align-items: center;
     margin-top: 20px;
 }
 
 .item {
     padding: 0 0 0 50px;
+    align-self: center;
 }
 
 .item img {
@@ -72,6 +72,8 @@ h2, textPath {
 
 .description {
     padding: 50px 50px 50px 100px;
+    align-self: center;
+    text-align: start;
 }
 
 .description p {
