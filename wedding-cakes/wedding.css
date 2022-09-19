@@ -41,13 +41,13 @@ h1 {
 
 .cake-item, .cake-item-reverse {
     display: flex;
-    align-items: center;
     margin: 40px 0;
 }
 
 .item, .item-reverse {
     display: flex;
     background-color: #FCAC0C;
+    align-self: center;
 }
 
 .cake-item-reverse, .item-reverse {
@@ -78,11 +78,15 @@ h2 {
 
 .description {
     padding: 50px 50px 50px 100px;
+    align-self: center;
+    text-align: start;
 }
 
 .description-reverse {
     margin-right: auto;
     padding: 50px 100px 50px 50px;
+    align-self: center;
+    text-align: start;
 }
 
 .description p, .description-reverse p {
@@ -189,6 +193,7 @@ h3 {
 
     .description, .description-reverse {
         padding: 50px 40px 0 40px;
+        align-self: flex-start;
     }
 
     #particles-js {
