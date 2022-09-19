@@ -212,12 +212,7 @@ h3 {
     }
 }
 
-@media all and (max-width: 555px) {    
-    .item img {
-        width: 280px;
-        height: 280px;
-    }
-
+@media all and (max-width: 555px) {
     .item {
         padding: 0 0 0 7%;
     }
@@ -229,6 +224,8 @@ h3 {
     }
 
     .pic-one {
+        width: 280px;
+        height: 280px;
         margin-left: 1%;
         margin-top: -100%;
     }
@@ -266,16 +263,13 @@ h3 {
         height: 100vh;
     }
 
-    .item img {
-        width: 230px;
-        height: 230px;
-    }
-
     .item {
         padding: 0 0 0 32%;
     }
 
     .pic-one {
+        width: 230px;
+        height: 230px;
         margin-top: -120%;
         margin-left: 0.7%;
     }
