@@ -231,7 +231,7 @@ function changeHeading() {
     const leftPicture = document.querySelectorAll('.circular svg');
 
         leftPicture.forEach(picture => {
-            if (document.documentElement.clientWidth < 500) {
+            if (document.documentElement.clientWidth < 556) {
                 picture.setAttribute('viewBox', '0 0 112 112');
             }
 
