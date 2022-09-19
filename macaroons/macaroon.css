@@ -200,7 +200,7 @@ h3 {
     }
 }
 
-@media all and (max-width: 500px) {    
+@media all and (max-width: 555px) {    
     .item img {
         width: 280px;
         height: 280px;
