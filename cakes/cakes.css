@@ -6,9 +6,11 @@
     --f-family: 'Quicksand', sans-serif;
 }
 
-html {
+
+/* из-за этого правила не меняется фон, первый фон каким-то образом становится фиксированным. вся страница воспринимается как 100vh и при скролле не переходит в 200 300vh */
+/* html {
     overflow: hidden;
-}
+} */
 
 body {
     background: url(../pictures/bg-main.jpg) top left no-repeat,
@@ -43,13 +45,10 @@ h1 {
     margin-top: 3px;
 }
 
-.cake-item, .cake-item-reverse {
+.cake-item {
     display: flex;
     align-items: center;
-}
-
-.cake-item-reverse {
-    flex-flow: row-reverse;
+    margin-top: 20px;
 }
 
 .item {
@@ -60,7 +59,7 @@ h1 {
     padding: 70px 60px 80px 0;
 }
 
-.item img, .item-reverse img {
+.item img {
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -84,11 +83,7 @@ h2, textPath {
     padding: 50px 50px 50px 100px;
 }
 
-.description-reverse {
-    padding: 50px 100px 50px 50px;
-}
-
-.description p, .description-reverse p {
+.description p {
     font-size: 25px;
     color: #C1A3A3;
 }
@@ -97,15 +92,10 @@ h3 {
     color: #FCAC0C;
 }
 
-#right {
-    margin-top: -328px;
-    margin-right: -286px;
-}
-
 .circular {
     width: 30em;
     height: 30em;
-    margin: 3em auto 0;
+    margin: 0 auto 0;
 }
 .circular svg {
     display: block;
@@ -156,7 +146,7 @@ h3 {
     z-index: -1;
     position: absolute;
     width: 100%;
-    height: 460vh;
+    height: 445vh;
 }
 
 #btn-up, #btn-home {
@@ -191,10 +181,6 @@ h3 {
     .description {
         padding: 20px 20px 20px 0;
     }
-    
-    .description-reverse {
-        padding: 20px 50px 20px 20px;
-    }
 
     #particles-js {
         height: 475vh;
@@ -202,21 +188,17 @@ h3 {
 }
 
 @media all and (max-width: 1000px) {
-    .description p, .description-reverse {
+    .description p {
         font-size: 22px;
     }
 
     .description {
         padding: 10px 10px 10px 0;
     }
-
-    .description-reverse {
-        padding: 20px 40px 20px 30px;
-    }
 }
 
 @media all and (max-width: 780px) {
-    .cake-item, .cake-item-reverse {
+    .cake-item {
         display: flex;
         flex-direction: column;
     }
@@ -225,35 +207,23 @@ h3 {
         padding: 0 10px 10px 35px;
     }
 
-    .description-reverse {
-        padding: 10px 10px 10px 35px;
-    }
-
     .item {
         padding: 0 0 0 75px;
     }
 
-    .item-reverse {
-        padding: 70px 0 50px 0;
-    }
-
     #particles-js {
-        height: 580vh;
+        height: 600vh;
     }
 }
 
 @media all and (max-width: 500px) {    
-    .item img, .item-reverse img {
+    .item img {
         width: 280px;
         height: 280px;
     }
 
     .item {
         padding: 0 0 0 7%;
-    }
-
-    .item-reverse {
-        padding: 70px 0 50px 10px;
     }
 
     .circular {
@@ -271,12 +241,7 @@ h3 {
         margin-top: -34%;
     }
 
-    #right {
-        margin-top: -258px;
-        margin-right: -183px;
-    }
-
-    .description p, .description-reverse {
+    .description p {
         font-size: 20px;
     }
 
@@ -290,10 +255,6 @@ h3 {
         padding: 0 0 0 11%;
     }
 
-    .item-reverse {
-        padding: 70px 0 50px 0;
-    }
-
     .pic-one {
         margin-left: 0.7%;
     }
@@ -301,14 +262,14 @@ h3 {
     .pic-two {
         margin-left: 0;
     }
-
-    #right {
-        margin-right: -179px;
-    }
 }
 
 @media all and (max-width: 350px) {
-    .item img, .item-reverse img {
+    html {
+        overflow: hidden;
+    }
+
+    .item img {
         width: 230px;
         height: 230px;
     }
@@ -326,11 +287,6 @@ h3 {
         margin-top: -61.6%;
     }
 
-    #right {
-        margin-top: -196px;
-        margin-right: -205px;
-    }
-
     .description {
         margin-top: -35px;
     }
@@ -338,7 +294,7 @@ h3 {
 
 @media all and (max-width: 300px) {
     .item {
-        padding: 0 0 0 35%;
+        padding: 0 0 0 41%;
     }
 
     .pic-one {
