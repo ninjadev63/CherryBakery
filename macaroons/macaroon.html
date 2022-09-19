@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CherryBakery - Macaroons</title>
+    <link rel="icon" href="../pictures/icon.jpg">
+    <link rel="stylesheet" href="macaroon.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <button id="btn-home" type="button"><a href="../index.html"><img src="../pictures/home-icon.png" alt="Home icon" width="20px"></a></button>
+    <button id="btn-up" type="button">&#8743;</button>
+    
+    <section class="container-lg">
+        <div class="row">
+            <div class="col-2 col-md-4 p-0">
+                <hr class="top">
+            </div>
+            <h1 class="col-8 col-md-4 mt-3 p-0">MACAROONS</h1>
+            <div class="col-2 col-md-4 p-0">
+                <hr class="top">
+            </div>
+        </div>
+        <div class="bottom-border">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/>
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Currant
+                                    <animate id="an1" attributeName="startOffset"  dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../macaroons-pictures/currant.jpg" alt="Currant macaroon">
+                </div>
+                <div class="description">
+                    <p>Light currant cream and currant in the center</p>
+                    <h3>$1 per unit</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/> 
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Hazelnut
+                                    <animate id="an2" attributeName="startOffset" begin="an1.end" dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../macaroons-pictures/hazelnut.jpg" alt="Hazelnut macaroon">
+                </div>
+                <div class="description">
+                    <p>Created on the basis of hazelnut flour, it has a rich nutty taste, and in combination with dark chocolate and nuts in the filling, it is the perfect dessert</p>
+                    <h3>$1 per unit</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/>
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Raspberry
+                                    <animate id="an3" attributeName="startOffset" begin="an2.end"  dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../macaroons-pictures/raspberry.jpg" alt="Raspberry macaroon">
+                </div>
+                <div class="description">
+                    <p>Deliciously tart, yet a divinely sweet treat</p>
+                    <h3>$1 per unit</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/> 
+                            <text  fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Lemon
+                                    <animate id="an4" attributeName="startOffset" begin="an3.end" dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../macaroons-pictures/lemon.jpg" alt="Lemon macaroon">
+                </div>
+                <div class="description">
+                    <p>Zingy lemon that truly tingles on the tongue</p>
+                    <h3>$1 per unit</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/>
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Chocolate
+                                    <animate id="an5" attributeName="startOffset" begin="an4.end"  dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../macaroons-pictures/chocolate.jpg" alt="Chocolate macaroon">
+                </div>
+                <div class="description">
+                    <p>Smooth and darkly delicious – a chocolate lover’s delight</p>
+                    <h3>$1 per unit</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/> 
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Blueberry cheesecake
+                                    <animate id="an6" attributeName="startOffset" begin="an5.end" dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../macaroons-pictures/blueberry.jpg" alt="Blueberry cheesecake macaroon">
+                </div>
+                <div class="description">
+                    <p>The cheesecake-inspired filling is rich and creamy but still a little tangy. And then there's the fresh burst of fruity flavour from the blueberry compote</p>
+                    <h3>$1 per unit</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/>
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Strawberries & Cream
+                                    <animate id="an7" attributeName="startOffset" begin="an6.end"  dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../macaroons-pictures/strawberry.jpg" alt="Strawberries and Cream macaroon">
+                </div>
+                <div class="description">
+                    <p>A quintessential taste of summertime all year round</p>
+                    <h3>$1 per unit</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="author">Made by <a class="made" href="https://github.com/jtopolska" target="_blank">Julia Topolska </a></p>
+            <p class="author">2022</p>
+            <p class="source">The site was created for educational purposes. The images were taken from open sources such as: https://www.freepik.com, https://unsplash.com, https://www.pexels.com, https://www.pngfind.com</p>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="macaroon.js"></script>
+
+</body>
+</html>

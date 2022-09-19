@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CherryBakery - Cheesecakes</title>
+    <link rel="icon" href="../pictures/icon.jpg">
+    <link rel="stylesheet" href="cheesecakes.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <button id="btn-home" type="button"><a href="../index.html"><img src="../pictures/home-icon.png" alt="Home icon" width="20px"></a></button>
+    <button id="btn-up" type="button">&#8743;</button>
+    
+    <section class="container-lg">
+        <div class="row">
+            <div class="col-2 col-md-4 p-0">
+                <hr class="top">
+            </div>
+            <h1 class="col-8 col-md-4 mt-3 p-0">CHEESECAKES</h1>
+            <div class="col-2 col-md-4 p-0">
+                <hr class="top">
+            </div>
+        </div>
+        <div class="bottom-border">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/>
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    New York
+                                    <animate id="an1" attributeName="startOffset"  dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../cheesecakes-pictures/new-york-cheesecake.jpg" alt="New York cheesecake">
+                    <img class="small-pic-one" src="../cheesecakes-pictures/piece of new-york-cheesecake.jpg" alt="A piece of New York cheesecake">
+                </div>
+                <div class="description">
+                    <p>Our legendary creamy New York cheesecake baked on a golden graham cracker crumb</p>
+                    <h3>$40 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/> 
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Strawberry jam
+                                    <animate id="an2" attributeName="startOffset" begin="an1.end" dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../cheesecakes-pictures/strawberry lam cheesecake.jpg" alt="Strawberry jam cheesecake">
+                    <img class="small-pic-two" src="../cheesecakes-pictures/piece of strawberry jam cheesecake.jpg" alt="A piece of Strawberry jam cheesecake">
+                </div>
+                <div class="description">
+                    <p>Our classic baked cheesecake glazed with fresh strawberry jam</p>
+                    <h3>$39 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/>
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Lemon
+                                    <animate id="an3" attributeName="startOffset" begin="an2.end"  dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../cheesecakes-pictures/lemon cheesecake.jpg" alt="Lemon cheesecake">
+                    <img class="small-pic-three" src="../cheesecakes-pictures/piece of lemon cheesecake.jpg" alt="A piece of Lemon cheesecake">
+                </div>
+                <div class="description">
+                    <p>Our cheesecake with lemon curd filling and topped with a lemon curd glaze. Decorated with berries and candied lemon slices</p>
+                    <h3>$40 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/> 
+                            <text  fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Mango
+                                    <animate id="an4" attributeName="startOffset" begin="an3.end" dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../cheesecakes-pictures/mango cheesecake.jpg" alt="Mango cheesecake">
+                    <img class="small-pic-four" src="../cheesecakes-pictures/piece of mango cheesecake.jpg" alt="A piece of Mango cheesecake">
+                </div>
+                <div class="description">
+                    <p>Mango key lime cheesecake swirled with mango and topped with a mango mousse and glaze, on a coconut vanilla crumb. Finished with hardened caramel drops</p>
+                    <h3>$43 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/>
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Cherry
+                                    <animate id="an5" attributeName="startOffset" begin="an4.end"  dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../cheesecakes-pictures/cherry cheesecake.jpg" alt="Cherry cheesecake">
+                    <img class="small-pic-five" src="../cheesecakes-pictures/piece of cherry cheesecake.jpg" alt="A piece of Cherry cheesecake">
+                </div>
+                <div class="description">
+                    <p>Sweet cream cherry cheesecake swirled with Bordeaux cherries</p>
+                    <h3>$40 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/> 
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Currant
+                                    <animate id="an6" attributeName="startOffset" begin="an5.end" dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../cheesecakes-pictures/currant cheesecake.jpg" alt="Currant cheesecake">
+                    <img class="small-pic-six" src="../cheesecakes-pictures/piece of currant cheesecake.jpg" alt="A piece of Currant cheesecake">
+                </div>
+                <div class="description">
+                    <p>Sweet cream cheesecake swirled with currant baked on a chocolate crumb and finished with fresh berries</p>
+                    <h3>$41 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/>
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Strawberry
+                                    <animate id="an7" attributeName="startOffset" begin="an6.end"  dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../cheesecakes-pictures/strawberry-cheesecake.jpg" alt="Strawberry cheesecake">
+                    <img class="small-pic-seven" src="../cheesecakes-pictures/piece of strawberry-cheesecake.jpg" alt="A piece of Strawberry cheesecake">
+                </div>
+                <div class="description">
+                    <p>Our delicious cheesecake enriched with double cream, then hand topped with juicy strawberries. All sat upon our signature crunchy biscuit base</p>
+                    <h3>$40 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="tb-borders">
+            <div class="cake-item">
+                <div class="item">
+                    <div class="circular">
+                        <svg viewBox="0 0 116 116" fill="transparent">
+                            <path d="M 0,60 a 50,50 0 1,1 0,2 z" id="circle"/> 
+                            <text fill="#B93160" font-size="10" font-family="Volkhov">
+                                <textPath startOffset="0" xlink:href="#circle">
+                                    Caramel popcorn
+                                    <animate id="an8" attributeName="startOffset" begin="an7.end" dur="1.5s" values="25%;1%"/>
+                                </textPath>
+                            </text>
+                        </svg>
+                    </div>
+                    <img class="pic-one" src="../cheesecakes-pictures/caramel popcorn cheesecake.jpg" alt="Caramel popcorn cheesecake">
+                    <img class="small-pic-eight" src="../cheesecakes-pictures/piece of caramel popcorn cheesecake.jpg" alt="A piece of Caramel popcorn cheesecake">
+                </div>
+                <div class="description">
+                    <p>Vanilla cheesecake with a layer of caramel, topped with chunks of popcorn and cookies. All on top of our signature crunchy biscuit base</p>
+                    <h3>$45 / 1 kg</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="author">Made by <a class="made" href="https://github.com/jtopolska" target="_blank">Julia Topolska </a></p>
+            <p class="author">2022</p>
+            <p class="source">The site was created for educational purposes. The images were taken from open sources such as: https://www.freepik.com, https://unsplash.com, https://www.pexels.com, https://www.pngfind.com</p>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="cheesecakes.js"></script>
+
+</body>
+</html>
+
