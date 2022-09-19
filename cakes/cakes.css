@@ -198,6 +198,7 @@ h3 {
 
     .description {
         padding: 0 10px 10px 35px;
+        align-self: flex-start;
     }
 
     .item {
