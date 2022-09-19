@@ -55,10 +55,6 @@ h1 {
     padding: 0 0 0 50px;
 }
 
-.item-reverse {
-    padding: 70px 60px 80px 0;
-}
-
 .item img {
     width: 400px;
     height: 400px;
@@ -67,11 +63,6 @@ h1 {
 
 .pic-one {
     margin-top: -101%;
-    margin-left: 1.5%;
-}
-
-.pic-two {
-    margin-top: -41.1%;
     margin-left: 1.5%;
 }
 
@@ -237,10 +228,6 @@ h3 {
         margin-top: -100%;
     }
 
-    .pic-two {
-        margin-top: -34%;
-    }
-
     .description p {
         font-size: 20px;
     }
@@ -257,10 +244,6 @@ h3 {
 
     .pic-one {
         margin-left: 0.7%;
-    }
-
-    .pic-two {
-        margin-left: 0;
     }
 }
 
@@ -281,10 +264,6 @@ h3 {
     .pic-one {
         margin-top: -120%;
         margin-left: 0.7%;
-    }
-
-    .pic-two {
-        margin-top: -61.6%;
     }
 
     .description {
