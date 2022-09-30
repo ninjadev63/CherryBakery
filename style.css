@@ -524,6 +524,13 @@ a img {
     background-color: #FCAC0C;
 }
 
+.powered {
+    font-family: var(--f-family);
+    margin: 0;
+    color: #C1A3A3;
+    font-size: 12px;
+}
+
 
 @media all and (max-width: 1200px) {
     h1 {
