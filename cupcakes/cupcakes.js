@@ -1,6 +1,13 @@
-gsap.to(".heading-one", {text: "Big Red", duration: 1.5, ease: "power1.out", delay: .5})
-gsap.to(".heading-two", {text: "Summer Berry", duration: 1.5, ease: "power1.out", delay: 1})
+gsap.registerPlugin(ScrollTrigger);
 
+gsap.to(".heading-one", {text: "Big Red", duration: 1.5, ease: "power1.out"})
+gsap.to(".heading-two", {scrollTrigger: {trigger: ".heading-two", start: "top center", end: "bottom center"}, text: "Summer Berry", duration: 1.5, ease: "power1.out"})
+gsap.to(".heading-three", {scrollTrigger: {trigger: ".heading-three", start: "top center", end: "bottom center"}, text: "Black & White", duration: 1.5, ease: "power1.out"})
+gsap.to(".heading-four", {scrollTrigger: {trigger: ".heading-four", start: "top center", end: "bottom center"}, text: "Raffaello", duration: 1.5, ease: "power1.out"})  
+gsap.to(".heading-five", {scrollTrigger: {trigger: ".heading-five", start: "top center", end: "bottom center"}, text: "Blueberry", duration: 1.5, ease: "power1.out"})
+gsap.to(".heading-six", {scrollTrigger: {trigger: ".heading-six", start: "top center", end: "bottom center"}, text: "Passion Fruit", duration: 1.5, ease: "power1.out"})
+gsap.to(".heading-seven", {scrollTrigger: {trigger: ".heading-seven", start: "top center", end: "bottom center"}, text: "Double Berry", duration: 1.5, ease: "power1.out"})
+gsap.to(".heading-eight", {scrollTrigger: {trigger: ".heading-eight", start: "top center", end: "bottom center"}, text: "Fresh Lime", duration: 1.5, ease: "power1.out"})
 
 particlesJS("particles-js", {
     "particles": {
@@ -124,22 +131,6 @@ function scrollFunction() {
     if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
         btnUp.style.display = "block";
         btnHome.style.display = "block";
-
-        gsap.to(".heading-three", {text: "Black & White", duration: 1.5, ease: "power1.in", delay: .5})
-    } 
-    if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
-        gsap.to(".heading-four", {text: "Raffaello", duration: 1.5, ease: "power1.in", delay: .5})
-    }  
-    if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
-        gsap.to(".heading-five", {text: "Blueberry", duration: 1.5, ease: "power1.in", delay: .5})
-    }
-    if (document.body.scrollTop > 1350 || document.documentElement.scrollTop > 1350) {
-        gsap.to(".heading-six", {text: "Passion Fruit", duration: 1.5, ease: "power1.in", delay: .5})
-    }
-    if (document.body.scrollTop > 1800 || document.documentElement.scrollTop > 1800) {
-        gsap.to(".heading-seven", {text: "Double Berry", duration: 1.5, ease: "power1.in", delay: .5})
-    }if (document.body.scrollTop > 2250 || document.documentElement.scrollTop > 2250) {
-        gsap.to(".heading-eight", {text: "Fresh Lime", duration: 1.5, ease: "power1.in", delay: .5})
     }
     else {
         btnUp.style.display = "none";
