@@ -1,5 +1,11 @@
-gsap.to(".heading-one", {text: "Tuscany wedding cake", duration: 2, ease: "power1.out", delay: .5})
-gsap.to(".heading-two", {text: "Flower wedding cake", duration: 2, ease: "power1.out", delay: 1})
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.to(".heading-one", {text: "Tuscany wedding cake", duration: 2, ease: "power1.out"})
+gsap.to(".heading-two", {scrollTrigger: {trigger: ".heading-two", start: "top center", end: "bottom center"}, text: "Flower wedding cake", duration: 2, ease: "power1.out"})
+gsap.to(".heading-three", {scrollTrigger: {trigger: ".heading-three", start: "top center", end: "bottom center"}, text: "Mango wedding cake", duration: 2, ease: "power1.out"})
+gsap.to(".heading-four", {scrollTrigger: {trigger: ".heading-four", start: "top center", end: "bottom center"}, text: "Kyiv wedding cake", duration: 2, ease: "power1.out"})  
+gsap.to(".heading-five", {scrollTrigger: {trigger: ".heading-five", start: "top center", end: "bottom center"}, text: "Nut wedding cake", duration: 2, ease: "power1.out"})
+gsap.to(".heading-six", {scrollTrigger: {trigger: ".heading-six", start: "top center", end: "bottom center"}, text: "Berry wedding cake", duration: 2, ease: "power1.out"})
 
 
 particlesJS("particles-js", {
@@ -124,17 +130,6 @@ function scrollFunction() {
     if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
         btnUp.style.display = "block";
         btnHome.style.display = "block";
-
-        gsap.to(".heading-three", {text: "Mango wedding cake", duration: 2, ease: "power1.in", delay: .5})
-    } 
-    if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
-        gsap.to(".heading-four", {text: "Kyiv wedding cake", duration: 2, ease: "power1.in", delay: .5})
-    }  
-    if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
-        gsap.to(".heading-five", {text: "Nut wedding cake", duration: 2, ease: "power1.in", delay: .5})
-    }
-    if (document.body.scrollTop > 1350 || document.documentElement.scrollTop > 1350) {
-        gsap.to(".heading-six", {text: "Berry wedding cake", duration: 2, ease: "power1.in", delay: .5})
     }
     else {
         btnUp.style.display = "none";
