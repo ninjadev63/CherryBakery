@@ -27,8 +27,8 @@ gsap.to('#btn-table', {duration: 5, repeat: -1, yoyo: true, backgroundColor: fun
 
 gsap.timeline({defaults: {duration: 0.8, opacity: 0, scale: 0.5}})
     .from(".pic-one", {x: 100})
-    .from(".pic-two", {x: -150, y: 100})
-    .from(".pic-three", {x: -150, y: -50})
+    .from(".pic-two", {x: -150, y: 150})
+    .from(".pic-three", {x: -150, y: -150})
 
 
 const wrapper = document.querySelector('.assortment-wrapper');
