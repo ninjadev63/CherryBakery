@@ -50,6 +50,33 @@ body {
     padding-right: 50px;
 }
 
+.nav-link {
+    position: relative;
+}
+
+.nav-link:after {
+    content: '';
+    position: absolute;
+    bottom: 15%;
+    transition: width 0.5s, opacity 0.8s;
+    opacity: 0;
+    height: 5%;
+    width: 0;
+    background: #B93160;
+    border-radius: 50%;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+    opacity: 1;
+}
+
+.nav-link:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
 .header {
     display: flex;
     margin-left: 10%;
@@ -500,7 +527,7 @@ a img {
     z-index: -1;
     position: absolute;
     width: 100%;
-    height: 482vh;
+    height: 525vh;
 }
 
 #btn-up {
@@ -649,6 +676,10 @@ a img {
     .book {
         margin: 60px 0 0 0;
     }
+    
+    #particles-js {
+        height: 488vh;
+    }
 }
 
 @media all and (max-width: 1000px) {
@@ -695,6 +726,10 @@ a img {
         margin-left: 25%;
         margin-top: -15%;
     }
+    
+    #particles-js {
+        height: 515vh;
+    }
 }
 
 @media all and (max-width: 900px) {
@@ -720,6 +755,10 @@ a img {
 
     .pic-two {
         margin-left: 20%;
+    }
+    
+    #particles-js {
+        height: 525vh;
     }
 }
 
@@ -792,7 +831,7 @@ a img {
     }
 
     #particles-js {
-        height: 600vh;
+        height: 668vh;
     }
 
     .book {
@@ -848,6 +887,10 @@ a img {
 
     .pic-two {
         margin-left: 55%;
+    }
+    
+    #particles-js {
+        height: 675vh;
     }
 }
 
@@ -941,6 +984,10 @@ a img {
 
     #btn-open, #btn-book, #btn-open a, #btn-book a {
         padding: 5px;
+    }
+    
+    #particles-js {
+        height: 660vh;
     }
 }
 
@@ -1052,6 +1099,10 @@ a img {
     h3 {
         font-size: 20px;
     }
+    
+    #particles-js {
+        height: 625vh;
+    }
 }
 
 @media all and (max-width: 310px) {
@@ -1085,6 +1136,10 @@ a img {
 
     .contact-img img, iframe {
         width: 200px;
+    }
+    
+    #particles-js {
+        height: 640vh;
     }
 }
 
