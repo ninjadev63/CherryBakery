@@ -227,46 +227,27 @@ function changeSizeCherry() {
             "retina_detect": true
         })
     }
-}
+};
 changeSizeCherry();
 
 function animateSmallPics() {
-    gsap.from('.small-pic-one', {
-        x: -80, delay: 1.5, duration: 1, rotation: 360, opacity: 0
-    })
-    gsap.from('.small-pic-two', {
-        x: -80, delay: 3, duration: 1, rotation: 360, opacity: 0
-    })
-    gsap.from('.small-pic-three', {
-        x: -80, delay: 4.5, duration: 1, rotation: 360, opacity: 0
-    })
-    gsap.from('.small-pic-four', {
-        x: -80, delay: 6, duration: 1, rotation: 360, opacity: 0
-    })
-    gsap.from('.small-pic-five', {
-        x: -80, delay: 7.5, duration: 1, rotation: 360, opacity: 0
-    })
-    gsap.from('.small-pic-six', {
-        x: -80, delay: 9, duration: 1, rotation: 360, opacity: 0
-    })
-    gsap.from('.small-pic-seven', {
-        x: -80, delay: 10.5, duration: 1, rotation: 360, opacity: 0
-    })
-    gsap.from('.small-pic-eight', {
-        x: -80, delay: 12, duration: 1, rotation: 360, opacity: 0
-    })
-}
+    let tl = gsap.timeline({defaults: {duration: 1, rotation: 360, opacity: 0}});
+        tl.from('.small-pic-one', {x: -80}, "+=1.5")
+        tl.from('.small-pic-two', {x: -80}, "+=0.5")
+        tl.from('.small-pic-three', {x: -80}, "+=0.5")
+        tl.from('.small-pic-four', {x: -80}, "+=0.5")
+        tl.from('.small-pic-five', {x: -80}, "+=0.5")
+        tl.from('.small-pic-six', {x: -80}, "+=0.5")
+        tl.from('.small-pic-seven', {x: -80}, "+=0.5")
+        tl.from('.small-pic-eight', {x: -80}, "+=0.5")
+};
 
 function hideSmallPics() {
-    document.querySelector('.small-pic-one').style.display = 'none';
-    document.querySelector('.small-pic-two').style.display = 'none';
-    document.querySelector('.small-pic-three').style.display = 'none';
-    document.querySelector('.small-pic-four').style.display = 'none';
-    document.querySelector('.small-pic-five').style.display = 'none';
-    document.querySelector('.small-pic-six').style.display = 'none';
-    document.querySelector('.small-pic-seven').style.display = 'none';
-    document.querySelector('.small-pic-eight').style.display = 'none';
-}
+    const hidePic = document.querySelectorAll('.small');
+    hidePic.forEach(pic => {
+        pic.style.display = 'none';
+    });
+};
 
 
 function changeHeading() {
@@ -281,7 +262,7 @@ function changeHeading() {
                 picture.setAttribute('viewBox', '0 0 137 137');  
             }  
         });
-}
+};
 changeHeading();
 
 window.onscroll = function() {scrollFunction()};
@@ -298,12 +279,12 @@ function scrollFunction() {
         btnUp.style.display = "none";
         btnHome.style.display = "none";
     }
-}
+};
 
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-}
+};
 
 
 
