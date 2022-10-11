@@ -266,3 +266,9 @@ h3 {
         height: 250vh;
     }
 }
+
+@media all and (min-height: 1200px) {
+    #particles-js {
+        height: 220vh;
+    }
+}
