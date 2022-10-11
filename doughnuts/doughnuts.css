@@ -254,3 +254,15 @@ h3 {
         height: 320vh;
     }
 }
+
+@media all and (min-height: 950px) {
+    #particles-js {
+        height: 280vh;
+    }
+}
+
+@media all and (min-height: 1100px) {
+    #particles-js {
+        height: 250vh;
+    }
+}
