@@ -306,4 +306,10 @@ h3 {
     }
 }
 
+@media all and (min-height: 1200px) {
+    #particles-js {
+        height: 314vh;
+    }
+}
+
 
