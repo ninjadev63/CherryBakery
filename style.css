@@ -1143,6 +1143,18 @@ a img {
     }
 }
 
+@media all and (min-height: 900px) {
+    #particles-js {
+        height: 405vh;
+    }
+}
+
+@media all and (min-height: 1100px) {
+    #particles-js {
+        height: 360vh;
+    }
+}
+
 
 
 
