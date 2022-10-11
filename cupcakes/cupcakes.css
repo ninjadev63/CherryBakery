@@ -176,10 +176,15 @@ h3 {
 @media all and (max-width: 900px) {
     .description {
         padding: 50px 30px 50px 50px;
+        
     }
     
     .description-reverse {
         padding: 50px 50px 50px 30px;
+    }
+
+    #particles-js {
+        height: 465vh;
     }
 }
 
@@ -191,6 +196,10 @@ h3 {
     .description, .description-reverse {
         padding: 50px 40px 0 40px;
         align-self: flex-start;
+    }
+
+    #particles-js {
+        height: 635vh;
     }
 }
 
@@ -217,6 +226,10 @@ h3 {
     .description p, .description-reverse p {
         font-size: 20px;
     }
+
+    #particles-js {
+        height: 550vh;
+    }
 }
 
 @media all and (max-width: 300px) {
@@ -232,5 +245,21 @@ h3 {
 
     .description p, .description-reverse p {
         font-size: 18px;
+    }
+
+    #particles-js {
+        height: 500vh;
+    }
+}
+
+@media all and (min-height: 930px) {
+    #particles-js {
+        height: 400vh;
+    }
+}
+
+@media all and (min-height: 1100px) {
+    #particles-js {
+        height: 360vh;
     }
 }
