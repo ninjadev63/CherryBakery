@@ -1,3 +1,12 @@
+const bodyHeight = document.querySelector('body');
+const particles = document.querySelector('#particles-js');
+
+function setHeight() {
+    let height = bodyHeight.scrollHeight;
+        particles.style.height = `${height}` + 'px';
+}
+setHeight();
+
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".heading-one", {text: "Maple", duration: 1, ease: "power1.out"})
