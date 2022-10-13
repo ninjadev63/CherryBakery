@@ -137,7 +137,6 @@ h3 {
     z-index: -1;
     position: absolute;
     width: 100%;
-    height: 400vh;
 }
 
 #btn-up, #btn-home {
@@ -172,10 +171,6 @@ h3 {
     .description {
         padding: 20px 20px 20px 0;
     }
-
-    #particles-js {
-        height: 475vh;
-    }
 }
 
 @media all and (max-width: 1000px) {
@@ -201,10 +196,6 @@ h3 {
 
     .item {
         padding: 0 0 0 75px;
-    }
-
-    #particles-js {
-        height: 490vh;
     }
 
     .small-pic-one, .small-pic-two, .small-pic-three, .small-pic-four, .small-pic-five, .small-pic-six, .small-pic-seven, .small-pic-eight {
@@ -234,10 +225,6 @@ h3 {
         font-size: 20px;
     }
 
-    #particles-js {
-        height: 380vh;
-    }
-
     .small-pic-one, .small-pic-two, .small-pic-three, .small-pic-four, .small-pic-five, .small-pic-six, .small-pic-seven, .small-pic-eight {
         width: 110px;
         margin: -120px 0 0 -80px;
@@ -255,14 +242,6 @@ h3 {
 }
 
 @media all and (max-width: 350px) {
-    html {
-        overflow: hidden;
-    }
-
-    #particles-js {
-        height: 100vh;
-    }
-
     .item {
         padding: 0 0 0 32%;
     }
@@ -291,24 +270,6 @@ h3 {
 
     .pic-one {
         margin-left: 0.5%;
-    }
-}
-
-@media all and (min-height: 925px) {
-    #particles-js {
-        height: 400vh;
-    }
-}
-
-@media all and (min-height: 1100px) {
-    #particles-js {
-        height: 360vh;
-    }
-}
-
-@media all and (min-height: 1200px) {
-    #particles-js {
-        height: 314vh;
     }
 }
 
