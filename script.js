@@ -87,7 +87,7 @@ function showCategory() {
 
     function setPosition() {
         wrapper.style.transform = `translateX(${position}px)`;
-        wrapper.style.transition = `transform 1.5s`;
+        wrapper.style.transition = `transform 1s`;
     };
 
     let i = 2;
@@ -145,7 +145,7 @@ function showCategory() {
 
     function setPosition() {
         wrapper.style.transform = `translateX(${position}px)`;
-        wrapper.style.transition = `transform 1.5s`;
+        wrapper.style.transition = `transform 1s`;
     };
 
     let i = 1;
@@ -202,7 +202,7 @@ function showCategory() {
 
     function setPosition() {
         wrapper.style.transform = `translateX(${position}px)`;
-        wrapper.style.transition = `transform 1.5s`;
+        wrapper.style.transition = `transform 1s`;
     };
 
     let i = 0;
