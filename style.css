@@ -527,7 +527,6 @@ a img {
     z-index: -1;
     position: absolute;
     width: 100%;
-    height: 525vh;
 }
 
 #btn-up {
@@ -676,10 +675,6 @@ a img {
     .book {
         margin: 60px 0 0 0;
     }
-    
-    #particles-js {
-        height: 488vh;
-    }
 }
 
 @media all and (max-width: 1000px) {
@@ -726,10 +721,6 @@ a img {
         margin-left: 25%;
         margin-top: -15%;
     }
-    
-    #particles-js {
-        height: 515vh;
-    }
 }
 
 @media all and (max-width: 900px) {
@@ -755,10 +746,6 @@ a img {
 
     .pic-two {
         margin-left: 20%;
-    }
-    
-    #particles-js {
-        height: 525vh;
     }
 }
 
@@ -830,10 +817,6 @@ a img {
         height: 200px;
     }
 
-    #particles-js {
-        height: 668vh;
-    }
-
     .book {
         min-height: 350px;
     }
@@ -887,10 +870,6 @@ a img {
 
     .pic-two {
         margin-left: 55%;
-    }
-    
-    #particles-js {
-        height: 675vh;
     }
 }
 
@@ -984,10 +963,6 @@ a img {
 
     #btn-open, #btn-book, #btn-open a, #btn-book a {
         padding: 5px;
-    }
-    
-    #particles-js {
-        height: 660vh;
     }
 }
 
@@ -1099,10 +1074,6 @@ a img {
     h3 {
         font-size: 20px;
     }
-    
-    #particles-js {
-        height: 625vh;
-    }
 }
 
 @media all and (max-width: 310px) {
@@ -1137,30 +1108,4 @@ a img {
     .contact-img img, iframe {
         width: 200px;
     }
-    
-    #particles-js {
-        height: 640vh;
-    }
 }
-
-@media all and (min-height: 900px) {
-    #particles-js {
-        height: 405vh;
-    }
-}
-
-@media all and (min-height: 1100px) {
-    #particles-js {
-        height: 360vh;
-    }
-}
-
-@media all and (min-height: 1200px) {
-    #particles-js {
-        height: 323vh;
-    }
-}
-
-
-
-
