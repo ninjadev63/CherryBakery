@@ -1,3 +1,12 @@
+const bodyHeight = document.querySelector('body');
+const particles = document.querySelector('#particles-js');
+
+function setHeight() {
+    let height = bodyHeight.scrollHeight;
+        particles.style.height = `${height}` + 'px';
+}
+setHeight();
+
 function changeSizeCherry() {
     if (document.documentElement.clientWidth > 350) {
         animateSmallPics();
