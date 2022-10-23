@@ -227,6 +227,10 @@ function showCategory() {
 }
 showCategory();
 
+wrapper.onresize = function () {
+    location.reload();
+};
+
 
 particlesJS("particles-js", {
     "particles": {
