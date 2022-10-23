@@ -1,7 +1,3 @@
-// window.onresize = function () {
-//     location.reload();
-// };
-
 const bodyHeight = document.querySelector('body');
 const particles = document.querySelector('#particles-js');
 
@@ -226,13 +222,6 @@ function showCategory() {
     };
 }
 showCategory();
-
-const assortment = document.querySelector('.assortment');
-
-assortment.onresize = function () {
-    location.reload();
-};
-
 
 particlesJS("particles-js", {
     "particles": {
