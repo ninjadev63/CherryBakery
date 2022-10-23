@@ -1,6 +1,6 @@
-window.onresize = function () {
-    location.reload();
-};
+// window.onresize = function () {
+//     location.reload();
+// };
 
 const bodyHeight = document.querySelector('body');
 const particles = document.querySelector('#particles-js');
