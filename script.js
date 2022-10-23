@@ -227,7 +227,9 @@ function showCategory() {
 }
 showCategory();
 
-wrapper.onresize = function () {
+const assortment = document.querySelector('.assortment');
+
+assortment.onresize = function () {
     location.reload();
 };
 
