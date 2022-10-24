@@ -41,7 +41,7 @@ body {
 }
 
 .cherry {
-    color: #B93160;
+    color: #B93160 !important;
 }
 
 .nav-item {
