@@ -15,7 +15,9 @@ body {
             url(./pictures/bg-second.jpg) 0 500vh no-repeat,
             url(./pictures/bg-third.jpg) 0 600vh no-repeat,
             url(./pictures/bg-fourth.jpg) 0 700vh no-repeat,
-            url(./pictures/bg-sixth.jpg) 0 800vh no-repeat;
+            url(./pictures/bg-sixth.jpg) 0 800vh no-repeat,
+            url(./pictures/bg-fifth.jpg) 0 900vh no-repeat,
+            url(./pictures/bg-second.jpg) 0 1000vh no-repeat;
     background-size: cover;
     max-width: 100%;
     font-family: var(--f-family);
